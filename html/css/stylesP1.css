@@ -1,0 +1,149 @@
+
+/* 
+    -------------------ALL PAGES-------------------
+*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.headBanner {
+    display: flex;  
+    flex-direction: row;
+    background-color: blue;
+    height: 5vw;
+}
+
+.headBanner_message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33.333%;
+    font-size: 3.5vw;
+    color: white;
+    
+}
+
+.headBanner_image {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    width: 33.333%;
+}   
+
+.headBanner_dropdown {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 33.333%;
+}
+
+.uweclogo {
+    height: 100%;
+    width: 100%;
+}
+
+.image {
+    width: 6.5vw;
+    height: 5vw;
+    z-index: 0;
+
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+
+}
+
+.dropdown img {
+    width: 6vw;
+    height: 6vw;
+    position: relative;
+    z-index: 1;
+    vertical-align: middle;
+    
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    min-width: 20vw;
+    
+    z-index: 1;
+    cursor: pointer;
+
+}
+
+.linkStyle {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.linkStyle_head{
+    text-decoration: none;
+    color: white;
+}
+
+.linkStyle:visited {
+    color: black;
+}
+
+.dropdown_item {
+    display: flex;
+    border: none;
+    height: 40px;
+    font-size: 1.75vw;
+    background-color: #EEEEEE;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    
+}
+
+.dropdown_item:hover {
+    background-color: #BBBBBB;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown_content {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+}
+
+/* 
+    ----------------------------------------------
+*/
+
+
+/* .resultsFrame {
+    width: 90%;
+    height: 1000px;
+   
+} */
+
+
+
+
+
+
+
+
+

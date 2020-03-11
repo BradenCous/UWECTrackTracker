@@ -1,0 +1,45 @@
+/* 
+    Styles for the home page
+*/
+
+.homePageContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.tfrrsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.tfrrs {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 720px) {
+    .homePageContainer {
+        height: auto;
+    }
+    
+    .tfrrsContainer {
+        flex-direction: column;
+        height: 1500px;
+    }
+
+    .tfrrs {
+        height: 750px;
+    }
+
+
+}

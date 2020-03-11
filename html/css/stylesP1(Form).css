@@ -1,0 +1,73 @@
+/* 
+    Styles for the fan zone/form page
+*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    vertical-align: auto;
+
+}
+
+.submitbtn {
+    background-color: lightgray;
+    border: 2px solid lightgreen;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.submitbtn:hover {
+    background-color: lightgreen;
+}
+
+.buttonpicture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+form img {
+    width: 40vw;
+    height: auto;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.lbl {
+    padding-top: 10px;
+    font-size: 1vw;
+}
+
+.input {
+    width: 12vw;
+}
+
+.contentform {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:550px) {
+    .lbl {
+        padding-top: 10px;
+        font-size: 2vw;
+    }
+    .input {
+        width: 24vw;
+    }
+}

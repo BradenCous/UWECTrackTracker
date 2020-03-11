@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/stylesP1.css">
+    <link rel="stylesheet" href="css/stylesP1(Form).css">
+    <title>Project 1</title>
+
+</head>
+
+<body>
+    <div id="banner" class ="headBanner">
+
+        <div id="banner2" class ="headBanner_dropdown">
+
+            <div class="dropdown">
+                <img src="/Users/BradenCousineau/Desktop/project1/html/imgs/hamburger.png" alt="Hamburger Drop Down">
+
+                <div class="dropdown_content">
+                    <div id="item1" class="dropdown_item">
+                        <a class="linkStyle" href="/Users/BradenCousineau/Desktop/project1/html/Project1Code.html">Home</a>
+                    </div>
+
+                    <div id="item2" class="dropdown_item">
+                        <a class="linkStyle" href="/Users/BradenCousineau/Desktop/project1/html/Project1Code(Gallery).html">Gallery</a>
+                    </div>
+
+                    <div id="item3" class="dropdown_item">
+                        <a class="linkStyle" href="/Users/BradenCousineau/Desktop/project1/html/Project1Code(Form).html">Fan Zone</a>
+                    </div>
+
+                    <div id="item4" class="dropdown_item">
+                        <a class="linkStyle" href="/Users/BradenCousineau/Desktop/project1/html/Project1Code(Results).html">Team PR's</a>
+                    </div>
+
+                    <div id="item5" class="dropdown_item">
+                        <a class="linkStyle" href="/Users/BradenCousineau/Desktop/project1/html/Project1Code(60m).html">60m Rankings</a>
+                    </div>
+
+                </div>
+            </div>
+                
+        </div>
+
+        <div id="banner1" class ="headBanner_message">
+            <a class="linkStyle_head" href="/Users/BradenCousineau/Desktop/project1/html/Project1Code.html">UWEC Track & Field</a>
+        </div>
+
+        <div id="banner3" class ="headBanner_image" onclick="">
+            <a href="https://blugolds.com/landing/index"><img class="image" src="/Users/BradenCousineau/Desktop/project1/html/imgs/uweclogo.png" alt="UWEC Logo" ></a>
+        </div>
+
+    </div>
+
+    <div class="contentform">
+
+        <div class="textblock">
+            <h2>Sign up to be a UWEC T&F Super Fan!</h2>
+            
+
+            Fill out the following information to become a UWEC T&F Super Fan. The bennefits include: absolutley nothing! Don't think twice about the sensitive information you are giving us, it is all perfectly safe. We gather this info soley for the purpose of getting to now our fans. None of this information will be sold to identity theives. Even through that would probably pay for some new pole vault pits...
+            <br>
+            <br>
+        </div> 
+
+
+        <form>
+            <div class="buttonpicture">
+                <img src="/Users/BradenCousineau/Desktop/project1/html/imgs/fans.jpg" alt="Super Fans">
+
+
+                <input class="submitbtn" type="submit" onclick="clicked()">
+                <!-- <button class="submitbtn" onclick="click()" type="submit" >Submit</button> -->
+            </div>
+
+
+            <div class="form">
+                <label class="lbl" for="name" >Name: </label>
+                <input class="input" type="text" id="namedata" placeholder="John Smith" required>
+    
+                <label class="lbl" for="email">Email Address: </label>
+                <input class="input" type="text" id="emaildata" placeholder="John.Smith@uwec.edu" required>
+    
+                <label class="lbl" for="phonenumber">Phone Number:</label>
+                <input class="input" type="text" id="phonenumberdata" placeholder="715-123-4567" required>
+    
+                <label class="lbl" for="ssn">SSN</label>
+                <input class="input" type="password" id="ssndata" placeholder="123-45-6789" required>
+    
+                <label class="lbl" for="maidenname">Mothers Maiden Name: </label>
+                <input class="input" type="text" id="maidennamedata" placeholder="Johnson" required>
+    
+                <label class="lbl" for="dob">DOB: </label>
+                <input class="input" type="date" id="dobdata" placeholder="01/01/1990" required>
+    
+                <label class="lbl" for="petname">Name of Your First Pet: </label>
+                <input class="input" type="text" id="petnamedata" placeholder="Steve" required>
+    
+                <label class="lbl" for="nickname">Childhood Nickname: </label>
+                <input class="input" type="text" id="nicknamedata" placeholder="Brick" required>
+        </form>
+ 
+    </div>
+
+
+
+
+
+</body>
+
+<script type="text/javascript" src="js/clicked.js"></script>
+
+</html>
